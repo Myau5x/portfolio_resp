@@ -10,7 +10,7 @@ For now main goal of project was to create responsive site that look good on all
 - `portfolio.html` -- my portfolio, now empty
 - `contacts.html` -- form to contact me
 - `ctyle.css` -- contains some styles that overwrite default bootstrap styles
-- `images' -- contains photos used on website
+- `images` -- contains photos used on website
 
 ### What i used 
 
