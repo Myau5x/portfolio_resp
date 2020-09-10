@@ -5,3 +5,27 @@ body{
     -o-background-size: cover;
     background-size: cover;
 }
+.navbar-brand, .btn-primary {
+    background-color: rgb(111, 129, 129);
+}
+.navbar-light .navbar-brand{
+    color: white;
+}
+
+h1 {
+    color: rgb(111, 129, 129);
+}
+
+.btn-primary {
+    border-color: rgb(111, 129, 129);
+}
+
+.btn.btn-primary:active:hover,
+.btn.btn-primary:hover {
+    border-color: rgb(91,109,109);
+    background-color: rgb(91,109,109);
+    
+}
+.navbar-brand, h1{
+    font-family: 'Lora', serif;
+}
