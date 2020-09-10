@@ -6,7 +6,7 @@ For now main goal of project was to create responsive site that look good on all
 
 ### Where to look?
 
-[https://myau5x.github.io/portfolio_resp/]
+My [portfolio](https://myau5x.github.io/portfolio_resp/)
 
 ### Files and directories 
 
@@ -22,4 +22,4 @@ Website is developed with Bootstrap.
 
 Photos are done by myself.
 
-Placeholder images  are coming from site [https://placeholder.com/]
+Placeholder images  are coming from site <https://placeholder.com/>
