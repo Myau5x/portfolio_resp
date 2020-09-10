@@ -2,6 +2,7 @@
 ## Responsive Portfolio
 
 Website that will contain my portfolio.
+For now main goal of project was to create responsive site that look good on all devices. It was done using Bootstrap grid system.
 
 ### Files and directories 
 
@@ -17,4 +18,4 @@ Website is developed with Bootstrap.
 
 Photos are done by myself.
 
-Placeholder images  are coming from site placeholder.com
+Placeholder images  are coming from site [https://placeholder.com/]
