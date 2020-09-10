@@ -4,6 +4,10 @@
 Website that will contain my portfolio.
 For now main goal of project was to create responsive site that look good on all devices. It was done using Bootstrap grid system.
 
+### Where to look?
+
+[https://myau5x.github.io/portfolio_resp/]
+
 ### Files and directories 
 
 - `index.html` -- basic information about me
@@ -12,7 +16,7 @@ For now main goal of project was to create responsive site that look good on all
 - `ctyle.css` -- contains some styles that overwrite default bootstrap styles
 - `images` -- contains photos used on website
 
-### What i used 
+### What I used 
 
 Website is developed with Bootstrap.
 
