@@ -7,8 +7,8 @@ body{
     background-size: cover;
 }
 /*Next styles changes colors of several elements */
-.navbar-brand, .btn-primary {
-    background-color: rgb(111, 129, 129);
+.navbar-brand, .btn-primary, .bg-info{
+    background-color: rgb(111, 129, 129)!important;
 }
 .navbar-light .navbar-brand{
     color: white;
