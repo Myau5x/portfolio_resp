@@ -2,7 +2,7 @@
 ## Responsive Portfolio
 
 Website that will contain my portfolio.
-For now main goal of project was to create responsive site that look good on all devices. It was done using Bootstrap grid system.
+The main goal of project was to create responsive site that look good on all devices. It was done using Bootstrap grid system.
 
 ### Where to look?
 
