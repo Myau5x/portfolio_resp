@@ -36,3 +36,16 @@ h1 {
 .navbar-brand, h1{
     font-family: 'Lora', serif;
 }
+
+.prj {
+    display: block;
+}
+
+h3 {
+    color: rgb(57, 124, 124);
+    
+}
+
+img .prj{
+    width: fit-content;
+}
