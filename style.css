@@ -49,3 +49,26 @@ h3 {
 img .prj{
     width: fit-content;
 }
+a:link {
+    color: rgb(57, 124, 124);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(57, 124, 124);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(42, 109, 109);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color:  rgb(42, 109, 109);
+    background-color: transparent;
+    text-decoration: underline;
+  }
