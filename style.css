@@ -8,7 +8,7 @@ body{
 }
 /*Next styles changes colors of several elements */
 .navbar-brand, .btn-primary{
-    background-color: rgb(57, 124, 124);
+    background-color: rgb(57, 124, 124)!important;
 }
 .bg-info{
     background-color: rgb(57, 124, 124)!important; 
@@ -33,7 +33,7 @@ h1 {
     
 }
 /*Change Font for 'Brand Name' and heading*/
-.navbar-brand, h1{
+.navbar-brand, h1, h3{
     font-family: 'Lora', serif;
 }
 
