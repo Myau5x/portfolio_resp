@@ -72,3 +72,6 @@ a:link {
     background-color: transparent;
     text-decoration: underline;
   }
+#name, #phone {
+    color: rgb(57, 124, 124);
+}
