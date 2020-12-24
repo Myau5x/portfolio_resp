@@ -6,15 +6,27 @@ background-image : url(./images/DSC02829.JPG)
 
 html *
 {
-   font-family: 'Lato',sans-serif
+   font-family: 'Lato',sans-serif;
+   color: #383432
 }
 .uk-logo
 {
     font-family: 'Caveat Brush', cursive;
+    color: #615e59
 }
 .uk-offcanvas-bar
 {
-    background-color: rgb(8, 31, 17);
+    background-color: rgb(56,52,50);
 }
 
+.uk-nav-default>li.uk-active>a
+{
+    color: #d9d6d1 !important;
+}
+
+.uk-card-default
+{
+   
+    opacity: 0.85;
+}
 
