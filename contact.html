@@ -9,10 +9,35 @@
 <!-- UIkit JS -->
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/js/uikit-icons.min.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-   
+  <nav class="uk-navbar-container" uk-navbar uk-sticky>
+    
+    <div class="uk-navbar-left">
+        <a class="uk-navbar-toggle" uk-toggle="target: #menu" uk-navbar-toggle-icon href="#"></a>
+        <div id="menu" uk-offcanvas>
+            <div class="uk-offcanvas-bar">
+                <button class="uk-offcanvas-close" type="button" uk-close></button>
+                <ul class="uk-nav uk-nav-default">
+                    <li class="nav-title uk-parent"><a href="./index.html">About</a></li>
+                    <li class="nav-title uk-parent"><a href="./portfolio.html">Portfolio</a></li>
+                    <li class="nav-title uk-active"><a href="./contact.html">Contacts</a></li>
+                </ul>               
+            </div>
+        </div>
+    </div>
+
+    <div class="uk-navbar-center">
+        <div class="title uk-navbar-item uk-logo">Olga Illarionova</div>
+    </div>
+ 
+</nav> 
+<div class="uk-container uk-background-cover">
+
+</div>
+
 </body>
 </html>
