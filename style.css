@@ -1,5 +1,16 @@
-.uk-container{
+.uk-container {
 
 
 background-image : url(./images/DSC02829.JPG)
 }
+
+html *
+{
+   font-family: 'Lato',sans-serif
+}
+.uk-logo 
+{
+    font-family: 'Caveat Brush', cursive;
+}
+
+
