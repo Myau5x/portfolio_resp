@@ -29,4 +29,27 @@ html *
    
     opacity: 0.85;
 }
+.resource-card {
+    margin-top: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    opacity: 85%;
+    padding: 0;
+}
+.logo-div {
+    display: block;
+    margin: 1rem;
+    max-width: 350px;
+    max-height: 250px;
+    padding: 0;
+}
 
+.logo-img {
+    display: block;
+    min-width: 160px;
+    max-width: 300px;
+    min-height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
