@@ -23,13 +23,13 @@
                 <button class="uk-offcanvas-close" type="button" uk-close></button>
                 <ul class="uk-nav uk-nav-default">
                     <li class="nav-title uk-parent"><a href="./index.html">About</a></li>
-                    <li class="nav-title uk-active"><a href="./portfolio.html">Portfolio</a></li>
+                    <li class="nav-title uk-parent"><a href="./portfolio.html">Portfolio</a></li>
                     <ul class="uk-nav-sub">
-                        <li class="nav-title uk-active"><a href="#">Project 1 </a></li>
-                        <li><a href="#">Project 2 </a></li>
-                        <li><a href="#">Project 3 </a></li>
-                        <li><a href="#">Project 4 </a></li>
-                        <li><a href="#">Project 5 </a></li>
+                        <li class="nav-title uk-active"><a href="./pnw_whales.html">PNW Whales </a></li>
+                        <li><a href="./eat-da-burger.html"> Eat-Da-Burger </a></li>
+                        <li><a href="./dumbells-n-donuts.html">Dumbbells and Donuts </a></li>
+                        <li><a href="./weather.html">Weather Dashboard </a></li>
+                        <li><a href="./quiz.html">Javascript Quiz </a></li>
                         
                     </ul>
                     <li class="nav-title uk-parent"><a href="./contact.html">Contacts</a></li>
@@ -44,20 +44,36 @@
 
 </nav>
 <div class="uk-container uk-background-cover uk-height-viewport">
-  <div uk-grid>
+  
     <div class="resource-card uk-card uk-card-default uk-card-hover uk-child-width-1-2@m" uk-grid>
       <div class="logo-div uk-card-media-top uk-cover-container">
-          <img class="logo-img" src="./images/whales.png" height="100px" alt="Be Whale Wise Logo">
+          <img class="logo-img" src="./images/whales.png" height="100px" alt="whale">
       </div>
       <div>
           <div class="uk-card-body">
-              <h3 class="uk-card-title"><a href="https://www.bewhalewise.org/" target="_blank"><span class="link" uk-icon="link"></span></a>Be Whale Wise</h3>
-              <p>Learn about laws and guidelines pertaining to our local marine mammals in order to find out what you can do to keep these magnificent creatures safe.</p>
+              <h3 class="uk-card-title">Summary & Tools </h3>
+              <p>A whale watching application that lets a user to post on the app when he/she sees a whale, the app then immediately sends notification to subscribers via text
+            </p>
+                <p> <b>Techologies:</b> JavaScript, jQuery, MySQL, Sequelize, Handlebars, Express
+                </p>
+                <a class="uk-icon-link" href="https://fathomless-springs-89027.herokuapp.com/" target="_blank" ><span uk-icon="link"></span>Deployed</a>
           </div>
-      </div>
+      </div>  
     </div>
-
-  </div>
+    <div class="resource-card uk-card uk-card-default uk-card-hover uk-child-width-1-2@m" uk-grid>
+        <div class="logo-div uk-card-media-top uk-cover-container">
+            <img class="logo-img" src="./images/whales.png" height="100px" alt="Be Whale Wise Logo">
+        </div>
+        <div>
+            <div class="uk-card-body">
+                <h3 class="uk-card-title"> My Role/Challenges </h3>
+                <p>Created static js files that show the website differently depending on user info. Handled input info and sent requests to the server. Checked on the server side that the user has rights to delete posts.
+              </p>
+            </div>
+        </div>  
+    </div>
+   
+    
  </div>
 </body>
 </html>
