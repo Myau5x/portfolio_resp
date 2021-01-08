@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olga Illari Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/css/uikit.min.css" />
+
+<!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/js/uikit-icons.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <nav class="uk-navbar-container" uk-navbar uk-sticky>
+    
+    <div class="uk-navbar-left">
+        <a class="uk-navbar-toggle" uk-toggle="target: #menu" uk-navbar-toggle-icon href="#"></a>
+        <div id="menu" uk-offcanvas>
+            <div class="uk-offcanvas-bar">
+                <button class="uk-offcanvas-close" type="button" uk-close></button>
+                <ul class="uk-nav uk-nav-default">
+                    <li class="nav-title uk-parent"><a href="./index.html">About</a></li>
+                    <li class="nav-title uk-parent"><a href="./portfolio.html">Portfolio</a></li>
+                    <ul class="uk-nav-sub">
+                        <li class="nav-title uk-active"><a href="./pnw_whales.html">PNW Whales </a></li>
+                        <li><a href="./eat-da-burger.html"> Eat-Da-Burger </a></li>
+                        <li><a href="./dumbells-n-donuts.html">Dumbbells and Donuts </a></li>
+                        <li><a href="./weather.html">Weather Dashboard </a></li>
+                        <li><a href="./quiz.html">Javascript Quiz </a></li>
+                        
+                    </ul>
+                    <li class="nav-title uk-parent"><a href="./contact.html">Contacts</a></li>
+                </ul>               
+            </div>
+        </div>
+    </div>
+
+    <div class="uk-navbar-center">
+        <div class="title uk-navbar-item uk-logo">Olga Illarionova</div>
+    </div>
+
+</nav>
+<div class="uk-container uk-background-cover uk-height-viewport">
+  
+    <div class="resource-card uk-card uk-card-default uk-card-hover uk-child-width-1-2@m" uk-grid>
+      <div class="logo-div uk-card-media-top uk-cover-container">
+          <img class="logo-img" src="./images/whales.png" height="100px" alt="whale">
+      </div>
+      <div>
+          <div class="uk-card-body">
+              <h3 class="uk-card-title">Summary & Tools </h3>
+              <p>A whale watching application that lets a user to post on the app when he/she sees a whale, the app then immediately sends notification to subscribers via text
+            </p>
+                <p> <b>Techologies:</b> JavaScript, jQuery, MySQL, Sequelize, Handlebars, Express
+                </p>
+                <a class="uk-icon-link" href="https://fathomless-springs-89027.herokuapp.com/" target="_blank" ><span uk-icon="link"></span>Deployed</a>
+          </div>
+      </div>  
+    </div>
+    <div class="resource-card uk-card uk-card-default uk-card-hover uk-child-width-1-2@m" uk-grid>
+        <div class="logo-div uk-card-media-top uk-cover-container">
+            <img class="logo-img" src="./images/whales.png" height="100px" alt="Be Whale Wise Logo">
+        </div>
+        <div>
+            <div class="uk-card-body">
+                <h3 class="uk-card-title"> My Role/Challenges </h3>
+                <p>Created static js files that show the website differently depending on user info. Handled input info and sent requests to the server. Checked on the server side that the user has rights to delete posts.
+              </p>
+            </div>
+        </div>  
+    </div>
+   
+    
+ </div>
+</body>
+</html>

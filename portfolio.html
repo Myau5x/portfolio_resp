@@ -4,107 +4,136 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Olga Illari Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/css/uikit.min.css" />
+
+<!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/js/uikit-icons.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Olga Illarionova</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Portfolio <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./index.html">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./contact.html">Contacts</a>
-              </li>
-          </ul>
-          
-        </div>
-    </nav>
-
-    <main class="container-sm">
-        
-        <section class="row mt-5 mb-5">
-            <div class="col-lg-8 bg-white pb-3">
-                
-                <h1 class="pt-3 ml-3"> Portfolio</h1>
-                <hr>
-                <div class="row mr-3">
-                    <div class="col-md-6">
-                      <h3 class= "prj"> 
-                      Dumbells and Donuts
-                      </h3>
-                      <a class = "prj" href="https://alischrec.github.io/Dumbbells_and_Donuts/">Deployed</a>
-                      
-                      <a class = "prj" href="https://github.com/Alischrec/Dumbbells_and_Donuts">Github</a>
-                      
-                        <img src = './images/donuts.png' class="img-fluid mb-3 mr-3" alt="Dumbbells_and_Donuts website">
-                    </div>
-                    <div class="col-md-6">
-                      <h3 class= "prj"> 
-                        Eat-Da-Burgers
-                        </h3>
-                        <a class = "prj" href="https://gentle-cove-02312.herokuapp.com/">Deployed</a>
-                        
-                        <a class = "prj" href="https://github.com/Myau5x/eat-da-burger">Github</a>
-
-                        <img src = './images/eatdaburger.png' class="img-fluid mb-3 mr-3" alt="burgers app">
-                    </div>
-                </div>
-
-                <div class="row mr-3">
-                    <div class="col-md-6">
-                      <h3 class= "prj"> 
-                        Javascript Quiz
-                        </h3>
-                        <a class = "prj" href="https://myau5x.github.io/javascript_quiz_hw4/">Deployed</a>
-                        
-                        <a class = "prj" href="https://github.com/Myau5x/javascript_quiz_hw4">Github</a>
-                        <img src = './images/quiz.png' class="img-fluid mb-3 mr-3" alt="quiz">
-                    </div>
-                    <div class="col-md-6">
-                      <h3 class= "prj"> 
-                        Weather Dashboard
-                        </h3>
-                        <a class = "prj" href="https://myau5x.github.io/weather_city_btns/">Deployed</a>
-                        
-                        <a class = "prj" href="https://github.com/Myau5x/weather_city_btns">Github</a>
-
-                        <img src = './images/weather.png' class="img-fluid mb-3 mr-3" alt="weather dashboard">
-                    </div>
-                    
-                </div>
-
-            </div>
-        </section>
-
-
-          
-    </main>
-
-    <footer class="fixed-bottom bg-dark text-center"> 
-        <div class="row">
-          <div class="col bg-info pb-1">
-          </div>      
-        </div>
-        <div class="row ">
-          <div class="col-12 text-center pt-1">
-           <p> &copy; Copyright </p>
-          </div>
-        </div> 
-      </footer>
+  <nav class="uk-navbar-container" uk-navbar uk-sticky>
     
-      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <div class="uk-navbar-left">
+        <a class="uk-navbar-toggle" uk-toggle="target: #menu" uk-navbar-toggle-icon href="#"></a>
+        <div id="menu" uk-offcanvas>
+            <div class="uk-offcanvas-bar">
+                <button class="uk-offcanvas-close" type="button" uk-close></button>
+                <ul class="uk-nav uk-nav-default">
+                    <li class="nav-title uk-parent"><a href="./index.html">About</a></li>
+                    <li class="nav-title uk-active"><a href="./portfolio.html">Portfolio</a></li>
+                    <ul class="uk-nav-sub">
+                        <li><a href="./pnw_whales.html">PNW Whales </a></li>
+                        <li><a href="./eat-da-burger.html"> Eat-Da-Burger </a></li>
+                        <li><a href="./dumbells-n-donuts.html">Dumbbells and Donuts </a></li>
+                        <li><a href="./weather.html">Weather Dashboard </a></li>
+                        <li><a href="./quiz.html">Javascript Quiz </a></li>
+                        
+                    </ul>
+                    <li class="nav-title uk-parent"><a href="./contact.html">Contacts</a></li>
+                </ul>               
+            </div>
+        </div>
+    </div>
+
+    <div class="uk-navbar-center">
+        <div class="title uk-navbar-item uk-logo">Olga Illarionova</div>
+    </div>
+
+</nav>
+<div class="uk-container uk-background-cover">
+<div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-grid-small uk-text-left uk-grid-match" uk-grid> 
+
+  <div >
+    <div class="uk-card uk-card-default uk-margin-small-right uk-margin-small-left uk-margin-small-top uk-margin-remove-adjacent">
+        <div class="uk-card-header">
+            <h3 class="uk-card-title">PNW Whales</h3>
+        </div>
+        <div class="uk-card-media-top">
+            <img src="./images/whales.png" alt="watch whales ">
+        </div>
+        <div class="uk-card-body">
+            <a  href="https://fathomless-springs-89027.herokuapp.com/" target="_blank" class="uk-icon-link">Deployed</a>
+            <br>      
+            <a href="https://github.com/watchNW/whale-watching" uk-icon="icon: github; ratio: 1.5" class="uk-icon-link" target="_blank" > Github repo </a>
+            <br>
+            <a href="./pnw_whales.html"> More ...</a>
+        </div>
+    </div>
+  </div>
+  <div >
+    <div class="uk-card uk-card-default uk-margin-small-right uk-margin-small-left uk-margin-small-top uk-margin-remove-adjacent">
+        <div class="uk-card-header">
+            <h3 class="uk-card-title">Eat-Da-Burger</h3>
+        </div>
+        <div class="uk-card-media-top">
+            <img src="./images/eatdaburger.png" alt="burger">
+        </div>
+        <div class="uk-card-body">
+            <a  href="https://gentle-cove-02312.herokuapp.com/" target="_blank" class="uk-icon-link">Deployed</a>
+            <br>      
+            <a href="https://github.com/Myau5x/eat-da-burger" uk-icon="icon: github; ratio: 1.5" class="uk-icon-link" target="_blank" >Github repo</a>
+            <br>
+            <a href="./eat-da-burger.html"> More ...</a>
+        </div>
+    </div>
+  </div>
+  <div >
+    <div class="uk-card uk-card-default uk-margin-small-right uk-margin-small-left uk-margin-small-top uk-margin-remove-adjacent">
+        <div class="uk-card-header">
+            <h3 class="uk-card-title">Dumbells and Donuts</h3>
+        </div>
+        <div class="uk-card-media-top">
+            <img src="./images/donuts.png" alt="donut&dumblells screenshot">
+        </div>
+        <div class="uk-card-body">
+            <a  href="https://alischrec.github.io/Dumbbells_and_Donuts/" target="_blank" >Deployed</a>
+            <br>      
+            <a href="https://github.com/Alischrec/Dumbbells_and_Donuts" target="_blank" >Github repo</a>
+            <br>
+            <a href="./dumbells-n-donuts.html"> More ...</a>
+        </div>
+    </div>
+  </div>
+  <div >
+    <div class="uk-card uk-card-default uk-margin-small-right uk-margin-small-left uk-margin-small-top uk-margin-remove-adjacent">
+        <div class="uk-card-header">
+            <h3 class="uk-card-title">Weather Dashboard</h3>
+        </div>
+        <div class="uk-card-media-top">
+            <img src="./images/weather.png" alt="weather dashboard">
+        </div>
+        <div class="uk-card-body">
+            
+            <a  href="https://myau5x.github.io/weather_city_btns/" target="_blank" >Deployed</a>
+            <br>      
+            <a href="https://github.com/Myau5x/weather_city_btns" target="_blank" >Github</a>
+            <br>
+            <a href="./weather.html"> More ...</a>
+        </div>
+    </div>
+  </div>
+  <div >
+    <div class="uk-card uk-card-default uk-margin-small-right uk-margin-small-left uk-margin-small-top uk-margin-remove-adjacent">
+        <div class="uk-card-header">
+            <h3 class="uk-card-title">JavaScript Quiz</h3>
+        </div>
+        <div class="uk-card-media-top">
+            <img src="./images/quiz.png" alt="quiz">
+        </div>
+        <div class="uk-card-body">
+            <a  href="https://myau5x.github.io/javascript_quiz_hw4/" target="_blank" >Deployed</a>
+            <br>      
+            <a href="https://github.com/Myau5x/javascript_quiz_hw4" target="_blank" >Github</a>
+            <br>
+            <a href="./quiz.html"> More ...</a>
+        </div>
+    </div>
+  </div> 
+
+</div>
+</div>
 </body>
 </html>

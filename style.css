@@ -1,77 +1,55 @@
-/*add background image*/
-body{
-    background:url('./images/DSC02829.JPG') no-repeat center center fixed;
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-/*Next styles changes colors of several elements */
-.navbar-brand, .btn-primary{
-    background-color: rgb(57, 124, 124)!important;
-}
-.bg-info{
-    background-color: rgb(57, 124, 124)!important; 
+.uk-container {
+
+
+background-image : url(./images/DSC02829.JPG)
 }
 
-.navbar-light .navbar-brand{
-    color: white;
+html *
+{
+   font-family: 'Lato',sans-serif;
+   color: #383432
+}
+.uk-logo
+{
+    font-family: 'Caveat Brush', cursive;
+    color: #615e59
+}
+.uk-offcanvas-bar
+{
+    background-color: rgb(56,52,50);
 }
 
-h1 {
-    color: rgb(57, 124, 124);
+.uk-nav-default>li.uk-active>a
+{
+    color: #d9d6d1 !important;
 }
 
-.btn-primary {
-    border-color: rgb(57, 124, 124);
+.uk-card-default
+{
+   
+    opacity: 0.85;
 }
-
-.btn.btn-primary:active:hover,
-.btn.btn-primary:hover {
-    border-color: rgb(42,109,109);
-    background-color: rgb(42,109,109);
-    
+.resource-card {
+    margin-top: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    opacity: 85%;
+    padding: 0;
 }
-/*Change Font for 'Brand Name' and heading*/
-.navbar-brand, h1, h3{
-    font-family: 'Lora', serif;
-}
-
-.prj {
+.logo-div {
     display: block;
+    margin: 1rem;
+    max-width: 350px;
+    max-height: 250px;
+    padding: 0;
 }
 
-h3 {
-    color: rgb(57, 124, 124);
-    
-}
-
-img .prj{
-    width: fit-content;
-}
-a:link {
-    color: rgb(57, 124, 124);
-    background-color: transparent;
-    text-decoration: none;
-  }
-  
-  a:visited {
-    color: rgb(57, 124, 124);
-    background-color: transparent;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    color: rgb(42, 109, 109);
-    background-color: transparent;
-    text-decoration: underline;
-  }
-  
-  a:active {
-    color:  rgb(42, 109, 109);
-    background-color: transparent;
-    text-decoration: underline;
-  }
-#name, #phone {
-    color: rgb(57, 124, 124);
+.logo-img {
+    display: block;
+    min-width: 160px;
+    max-width: 300px;
+    min-height: 150px;
+    margin-left: auto;
+    margin-right: auto;
 }
