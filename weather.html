@@ -47,27 +47,29 @@
   
     <div class="resource-card uk-card uk-card-default uk-card-hover uk-child-width-1-2@m" uk-grid>
       <div class="logo-div uk-card-media-top uk-cover-container">
-          <img class="logo-img" src="./images/whales.png" height="100px" alt="whale">
+          <img class="logo-img" src="./images/weather.png" height="100px" alt="weather Dashboard">
       </div>
       <div>
           <div class="uk-card-body">
               <h3 class="uk-card-title">Summary & Tools </h3>
-              <p>A whale watching application that lets a user to post on the app when he/she sees a whale, the app then immediately sends notification to subscribers via text
+              <p>A weather app that shows current weather and forecast in chosen city and saves history of search locally on client browser.
             </p>
-                <p> <b>Techologies:</b> JavaScript, jQuery, MySQL, Sequelize, Handlebars, Express
+                <p> <b>Techologies:</b> JavaScript, jQuery, API, CSS
                 </p>
-                <a class="uk-icon-link" href="https://fathomless-springs-89027.herokuapp.com/" target="_blank" ><span uk-icon="link"></span>Deployed</a>
+                <a class="uk-icon-link" href="https://myau5x.github.io/weather_city_btns/" target="_blank" ><span uk-icon="link"></span>Deployed</a>
           </div>
       </div>  
     </div>
     <div class="resource-card uk-card uk-card-default uk-card-hover uk-child-width-1-2@m" uk-grid>
         <div class="logo-div uk-card-media-top uk-cover-container">
-            <img class="logo-img" src="./images/whales.png" height="100px" alt="Be Whale Wise Logo">
+            <img class="logo-img" src="./images/weather.png" height="100px" alt="weather dashboard">
         </div>
         <div>
             <div class="uk-card-body">
                 <h3 class="uk-card-title"> My Role/Challenges </h3>
-                <p>Created static js files that show the website differently depending on user info. Handled input info and sent requests to the server. Checked on the server side that the user has rights to delete posts.
+                <p>
+                    I used API from openweathermap.org, and it provides forecast based on latitude and longitude and not by city name. So to provide user forecast by city name I first sent request for current weather and it gives me coordinates of city, than I sent another API request for forecast and parse responce to show it user friendly way.
+
               </p>
             </div>
         </div>  
