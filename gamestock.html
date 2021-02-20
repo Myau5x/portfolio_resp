@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olga Illari Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/css/uikit.min.css" />
+
+<!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/js/uikit-icons.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <nav class="uk-navbar-container" uk-navbar uk-sticky>
+    
+    <div class="uk-navbar-left">
+        <a class="uk-navbar-toggle" uk-toggle="target: #menu" uk-navbar-toggle-icon href="#"></a>
+        <div id="menu" uk-offcanvas>
+            <div class="uk-offcanvas-bar">
+                <button class="uk-offcanvas-close" type="button" uk-close></button>
+                <ul class="uk-nav uk-nav-default">
+                    <li class="nav-title uk-parent"><a href="./index.html">About</a></li>
+                    <li class="nav-title uk-parent"><a href="./portfolio.html">Portfolio</a></li>
+                    <ul class="uk-nav-sub">
+                        <li class="nav-title uk-active"><a href="./pnw_whales.html">PNW Whales </a></li>
+                        <li><a href="./eat-da-burger.html"> Eat-Da-Burger </a></li>
+                        <li><a href="./dumbells-n-donuts.html">Dumbbells and Donuts </a></li>
+                        <li><a href="./weather.html">Weather Dashboard </a></li>
+                        <li><a href="./quiz.html">Javascript Quiz </a></li>
+                        
+                    </ul>
+                    <li class="nav-title uk-parent"><a href="./contact.html">Contacts</a></li>
+                </ul>               
+            </div>
+        </div>
+    </div>
+
+    <div class="uk-navbar-center">
+        <div class="title uk-navbar-item uk-logo">Olga Illarionova</div>
+    </div>
+
+</nav>
+<div class="uk-container uk-background-cover uk-height-viewport">
+  
+    <div class="resource-card uk-card uk-card-default uk-card-hover uk-child-width-1-2@m" uk-grid>
+      <div class="logo-div uk-card-media-top uk-cover-container">
+          <img class="logo-img" src="./images/gamestock.png" height="100px" alt="sctock chart">
+      </div>
+      <div>
+          <div class="uk-card-body">
+              <h3 class="uk-card-title">Summary & Tools </h3>
+              <p>Game app to learn investment. App allows users to trade using real market data and fake money.
+            </p>
+                <p> <b>Techologies:</b> JavaScript, Mongo DB, Mongoose, Express, React
+                </p>
+                <a class="uk-icon-link" href="https://gamestock-app.herokuapp.com/gamestock/" target="_blank" ><span uk-icon="link"></span>Deployed</a>
+          </div>
+      </div>  
+    </div>
+    <div class="resource-card uk-card uk-card-default uk-card-hover uk-child-width-1-2@m" uk-grid>
+        <div class="logo-div uk-card-media-top uk-cover-container">
+            <img class="logo-img" src="./images/gamestock.png" height="100px" alt="stock chart">
+        </div>
+        <div>
+            <div class="uk-card-body">
+                <h3 class="uk-card-title"> My Role/Challenges </h3>
+                <p> Created database models and controllers. It was interesting to change 3 collections after 1 POST request. Created express routes to connect with the database.
+              </p>
+            </div>
+        </div>  
+    </div>
+   
+    
+ </div>
+</body>
+</html>
